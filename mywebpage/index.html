@@ -7,7 +7,7 @@
 <!-- зона заголовка html, тег <title> - строка, которую браузер отображает на вкладках над страницами, <meta> и <link> сообщают технические сведения для браузера, например, что файл имеет кодировку Юникод (utf-8) -->
 
 	<head>
-		<title>Личная страница Веры Кузнецовой</title>
+		<title>Личная страница Вики Мошкович</title>
 	 	<!-- Required meta tags -->
 	 	<meta charset="utf-8">
 	 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -44,79 +44,95 @@
 
 <!-- начинается шапка. у тега header есть атрибут style, который задает цвет фона и отступы. поменяйте значения атрибутов и посмотрите, как изменится страница -->
 
-		<header style="background-color:plum; padding-top:70px; "> 
+		<header style="background-color:thistle; padding-top:80px; "> 
 			<div class="container"> 
 				<div class="row">
 					<div class="col-md-4">
 						<br><br>
 <!-- здесь и дальше нужно поменять весь содержательный текст, чтобы получилась ваша личная страница -->
-						<h1>Оля Ляшевская</h1>
+						<h1 style="font-size:300%; font-family: 'Georgia'"><b><i>Вика Мошкович</i></b></h1>
 						<hr> <!-- это горизонтальная линия -->
-						<p><i>Человек, умеющий <b>создавать</i> HTML</b></p> 
+						<p style="font-size:150%; font-family: 'Georgia'"> — geek chick</p> 
 					</div>
 					<div class="col-md-4">
 <!-- img - тег для вставки изображений. Мы использовали атрибут style, чтобы задать размер изображения и ширину рамки-->
 <!-- Измените URL на URL вашей фотографии, а также настройте размер изображения -->
-<img src="myphoto.jpg" style="height:320px; margin:20px 20px 40px 20px; " >
+<img src="IMG_6042.jpg" style="height:320px; margin:10px 20px 70px 20px; " >
 					</div>
+					
 				</div>
 			</div>
 		</header>
 
 <!-- часть страницы, которая под шапкой -->
-		<section id="portfolio">
+		<section style="background-color:white; padding-top:20px; "id="portfolio">
 			<div class="container">
 
 <!-- атрибут col-md-... говорит, что контент будет разделен на несколько столбцов, их ширина соотносится как 3 - 6 - 3 (Bootstrap использует воображаемую сетку из 12 равных по ширине колонок) -->
-				<div class="col-md-3">
+				<div class="col-md-4">
 
 <!-- <article> не влияет на оформление, но помогает структурировать контент на осмысленые разделы -->
-					<article>
-						<h3>Место учебы</h3>
-						<p>Фундаментальная и прикладная лингвистика, НИУ ВШЭ, Москва</p>
+					<article style="background-color:lavender; padding-top:1px; ">
+						<h3 style="font-size:200%; font-family: 'Georgia'; color:thistle"><b><i>Место учебы</i></b></h3>
+						<p style="font-size:120%; font-family: 'Georgia'">Взрослой Виктории: ФиКЛ, НИУ ВШЭ, Москва <br>
+						Малютки Мош: лучший в мире лицей 23, Подольск, от звонка до звонка</p>
 					</article>
-					<article>
-						<h3>Родной город</h3>
-						<p>Москва</p>
-					</article>
-					<article>
-						<h3>Школа</h3>
-<!-- когда будете менять текст, не используйте бюрократических слов типа ГБОУ СОШ, ну пожаалуйста -->
-						<p>СУНЦ НГУ</p>
+					
+				</div>
+
+				<div class="col-md-4">
+					<article style="background-color:thistle; padding-top:1px;">
+						<h3 style="font-size:200%; font-family: 'Georgia'; color:lavender"><b><i>Родной город</i></b></h3>
+						<p style="font-size:120%; font-family: 'Georgia'">Подольск — столица мира и место съёмки Молодёжки<br>
+						
+						Проведу экскурсию, недорого, звоните 89296455466</p>
 					</article>
 				</div>
 
-				<div class="col-md-6">
-					<article>
-						<h3>Тут можно написать</h3>
-						<p>Еще много много много много много много <br>
-						много <br>
-						много <br>
-						много <br>
-						много <br>
-						много <br>
-						много <br>
-						много <br>
-						всего о себе</p>
-					</article>
-				</div>
-
-				<div class="col-md-3">
-					<h3>Я в соцсетях</h3>
+				<div class="col-md-4">
+					<article style="background-color:lavender; padding-top:1px; ">
+						<h3 style="font-size:200%; font-family: 'Georgia'; color:thistle"><b><i>Я в соцсетях</i></b></h3>
 <!-- тег <ul> - unordered list. Еще бывает тег <ol> -->
-					<ul>
-						<li>VK</li>
-						<li>Discord</li>
-						<li>Telegram</li>
-					</ul>
+						<ul>
+							<li style="font-size:120%; font-family: 'Georgia'"> хроники моей жизни + детские кринжовые фотки <a href="https://vk.com/glupymoshkovich">VK</a></li>
+							<li style="font-size:120%; font-family: 'Georgia'"> тут я эстетик герл <a href="https://instagram.com/victoriaa_mosh">inst</a></li>
+							<li style="font-size:120%; font-family: 'Georgia'">написать мне можно в <a href="https://t.me/vmosh">tg</a></li>
+						</ul>
+					</article>
 				</div>
 			</div>
+		</section>
+		
+		<section style="background-color:lavender; padding-top:20px; "id="portfolio">
+			<div class="container">
+				
+					<article>
+						<h3 style="font-size:200%; font-family: 'Georgia'"><b><i>Топ-10 фактов обо мне</i></b></h3>
+						<p style="font-size:110%; font-family: 'Georgia'">1.У меня 5 дипломов всероса: 1 побед по русскому и по 2 призера по русскому и английскому <br>
+						2. С 8 класса я больше известна как Вика Мош <br>
+						3. Я преподаю с 15 лет: в 10-11 классе вела олимпиадный кружок по русскому в своей школе, теперь тренер сборной МО,<br>
+						еще работаю в онлайн-школе "Кирилл и Мефодий"<br>
+						4. У меня есть родная старшая сестра Юля! Она старше меня на 15 лет, но выглядит моложе меня))<br>
+						а её дочку Таю я развлекаю со своих 8 лет <br>
+						5. Я занимаюсь хип-хопом 10 лет, состояла в командах Lil Scream, Soul Scream и B-fly Effect<br>
+						6. Знаю всю русскую попсу и шансон, и мне не стыдно!<br>
+						7. Была в Сириусе 2 раза: на лингвистике в 2022 и на лит.творчестве в 2023 и реально проводила экскурсию по Подольску своим соседкам!<br>
+						8. Обожаю СТСные сериалы, нтвшного Глухаря, ситкомы: Друзья, Клиника, Теория Большого взрыва и Как я встретил вашу маму<br>
+						9. В ~4 года мечтала выйти замуж за Диму Билана<br>
+						10. В детстве меня называли черепашкой<br>
+						
+						
+						
+				
+						</p>
+					</article>
+				
 		</section>
 
 <!-- это подвал. В этой части страницы обычно ставят копирайт (с помощью символа &copy;) и пишут об истории создания страницы. Поставьте свой копирайт -->
 		<footer class="bs-docs-footer"> 
 			<div class="container"> 
-				<p style="text-align:right; ">&copy; В. Кузнецова, 2024</p> 
+				<p style="text-align:right; ">&copy; В.В. Мошкович, 2025</p> 
 			</div>
 		</footer>
 	</body>
